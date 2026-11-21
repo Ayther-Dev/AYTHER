@@ -54,18 +54,33 @@ been properly evaluated.
 
 ## Public ecosystem
 
-This repository is the public entry point for the AYTHER ecosystem. Source code,
-technical documentation, and releases belong in their corresponding repositories.
+AYTHER is an open-source technology ecosystem for real-time audiovisual remastering of classic games.
+
+This repository serves as the public entry point. Source code, technical documentation, and releases are maintained in their respective repositories.
 
 | Project | Purpose | Status |
 | --- | --- | --- |
-| [AYTHER Engine](https://github.com/Ayther-Dev/AYTHER-Engine) | Core emulation, audiovisual identification, substitution, and rendering technology | Early development |
-| [AYTHER Runtime](https://github.com/Ayther-Dev/AYTHER-Runtime) | Session host used to run games with compatible enhancements | Early development |
-| [AYTHER Play](https://github.com/Ayther-Dev/AYTHER-Play) | Player-facing launcher and library experience | Early development |
-| [AYTHER SDK](https://github.com/Ayther-Dev/AYTHER-SDK) | Public interfaces, contracts, tools, and integration examples | Developer preview |
+| [AYTHER Engine](https://github.com/Ayther-Dev/AYTHER-Engine) | Real-time audiovisual identification, asset substitution, rendering, audio processing, and pack management | Release candidates |
+| [AYTHER Runtime](https://github.com/Ayther-Dev/AYTHER-Runtime) | Game-session host, original/HD presentation, input handling, and integration with emulation providers | Beta |
+| [AYTHER SDK](https://github.com/Ayther-Dev/AYTHER-SDK) | Public APIs, integration contracts, `.ay` pack tooling, and open authoring workflows | Developer Preview |
+| [AYTHER Play CE](https://github.com/Ayther-Dev/AYTHER-Play-CE) | Open-source, offline-first launcher for local game libraries, enhancement packs, and Runtime integration | Pre-release |
+| [AYTHER Tessera](https://github.com/Ayther-Dev/AYTHER-Tessera) | Open emulation core focused on deterministic execution, structured observability, and native Engine integration | MVP in development |
 
-The repositories are being initialized progressively. An empty or incomplete
-repository should not be interpreted as a published release.
+### Open-source and commercial boundaries
+
+AYTHER's public repositories provide the technological foundations for community development, interoperability, and independent integrations.
+
+Separate commercial products and services include AYTHER Play, AYTHER Lab, AYTHER Hub, and AYTHER Enterprise.
+
+**AYTHER Play CE** is the open-source Community Edition of the player application. It supports local game libraries, locally supplied enhancement packs, and offline operation without requiring an AYTHER account, subscription, or proprietary online service.
+
+The commercial AYTHER Play product and its connected services are developed separately.
+
+### Development status
+
+AYTHER is under active development. Components have different maturity levels, and public APIs, compatibility guarantees, and supported platforms may evolve before stable releases.
+
+Refer to each repository for its current capabilities, build instructions, known limitations, and release status.
 
 ## Core principles
 
